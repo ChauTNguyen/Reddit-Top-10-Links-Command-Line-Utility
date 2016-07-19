@@ -1,5 +1,6 @@
+#!env/bin/python
+
 import argparse, smtplib, praw
-# from time import sleep
 from config import * # password, my_email_address, target_email_address
 
 r = praw.Reddit(user_agent="Customized Reddit Feed for Myself")
